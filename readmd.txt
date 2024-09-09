@@ -1,0 +1,25 @@
+ Terminal-based Password Manager
+
+This is a secure, terminal-based password manager written in Python. 
+The application allows users to store, retrieve, update, and delete encrypted passwords for different accounts, as well as generate strong passwords. 
+It uses a master password for authentication and employs encryption to keep stored passwords safe.
+
+ Features
+
+- Add Password: Store an account's username and password, with the password encrypted for security.
+- View Passwords: View a list of saved accounts and usernames. Optionally, reveal the stored password for a selected account.
+- Delete Password: Remove an account and its associated password from the storage.
+- Update Password: Change the stored password for an existing account.
+- Generate Strong Password: Generate a strong password of customizable length using random characters.
+- Master Password: Secure access to the manager with a master password, which is hashed and stored locally.
+
+Requirements
+
+This application requires the following dependencies:
+
+ The `cryptography` library for encryption.
+
+To install `cryptography`, you can use pip:
+
+bash
+pip install cryptography
